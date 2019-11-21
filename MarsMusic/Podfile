@@ -1,0 +1,21 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'MarsMusic' do
+    pod 'AFNetworking', '~> 3.0'
+
+
+
+  # Pods for MarsMusic
+
+  target 'MarsMusicTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'MarsMusicUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

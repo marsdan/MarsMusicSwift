@@ -1,0 +1,731 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		57C55BF7238688DC002CF3B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C55BF6238688DC002CF3B9 /* AppDelegate.swift */; };
+		57C55BF9238688DC002CF3B9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C55BF8238688DC002CF3B9 /* SceneDelegate.swift */; };
+		57C55BFB238688DC002CF3B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C55BFA238688DC002CF3B9 /* ViewController.swift */; };
+		57C55BFE238688DC002CF3B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57C55BFC238688DC002CF3B9 /* Main.storyboard */; };
+		57C55C01238688DC002CF3B9 /* MarsMusic.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 57C55BFF238688DC002CF3B9 /* MarsMusic.xcdatamodeld */; };
+		57C55C03238688DF002CF3B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57C55C02238688DF002CF3B9 /* Assets.xcassets */; };
+		57C55C06238688DF002CF3B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57C55C04238688DF002CF3B9 /* LaunchScreen.storyboard */; };
+		57C55C11238688DF002CF3B9 /* MarsMusicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C55C10238688DF002CF3B9 /* MarsMusicTests.swift */; };
+		57C55C1C238688DF002CF3B9 /* MarsMusicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C55C1B238688DF002CF3B9 /* MarsMusicUITests.swift */; };
+		876CAA38DAADF5DA6BCB0DF7 /* libPods-MarsMusicUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7580F45A236B1C4D78FBA519 /* libPods-MarsMusicUITests.a */; };
+		94173D3E887353649BBE3EF1 /* libPods-MarsMusic.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 167013FDFD0C2F914A57D060 /* libPods-MarsMusic.a */; };
+		CED40A7D88183496E165A9B3 /* libPods-MarsMusicTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 783112449D789CDE08BC894B /* libPods-MarsMusicTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		57C55C0D238688DF002CF3B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57C55BEB238688DC002CF3B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57C55BF2238688DC002CF3B9;
+			remoteInfo = MarsMusic;
+		};
+		57C55C18238688DF002CF3B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57C55BEB238688DC002CF3B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57C55BF2238688DC002CF3B9;
+			remoteInfo = MarsMusic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00B501D2AC48D43DF3E9D59B /* Pods-MarsMusicTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarsMusicTests.release.xcconfig"; path = "Target Support Files/Pods-MarsMusicTests/Pods-MarsMusicTests.release.xcconfig"; sourceTree = "<group>"; };
+		167013FDFD0C2F914A57D060 /* libPods-MarsMusic.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MarsMusic.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3986369B6FC8CA30607D729A /* Pods-MarsMusicTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarsMusicTests.debug.xcconfig"; path = "Target Support Files/Pods-MarsMusicTests/Pods-MarsMusicTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4E7212500FD0305BB4ECE96D /* Pods-MarsMusicUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarsMusicUITests.debug.xcconfig"; path = "Target Support Files/Pods-MarsMusicUITests/Pods-MarsMusicUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		57C55BF3238688DC002CF3B9 /* MarsMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarsMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		57C55BF6238688DC002CF3B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		57C55BF8238688DC002CF3B9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		57C55BFA238688DC002CF3B9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		57C55BFD238688DC002CF3B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		57C55C00238688DC002CF3B9 /* MarsMusic.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MarsMusic.xcdatamodel; sourceTree = "<group>"; };
+		57C55C02238688DF002CF3B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		57C55C05238688DF002CF3B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		57C55C07238688DF002CF3B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57C55C0C238688DF002CF3B9 /* MarsMusicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarsMusicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		57C55C10238688DF002CF3B9 /* MarsMusicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarsMusicTests.swift; sourceTree = "<group>"; };
+		57C55C12238688DF002CF3B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57C55C17238688DF002CF3B9 /* MarsMusicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarsMusicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		57C55C1B238688DF002CF3B9 /* MarsMusicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarsMusicUITests.swift; sourceTree = "<group>"; };
+		57C55C1D238688DF002CF3B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CC9D2431A586193C6A7E081 /* Pods-MarsMusicUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarsMusicUITests.release.xcconfig"; path = "Target Support Files/Pods-MarsMusicUITests/Pods-MarsMusicUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7580F45A236B1C4D78FBA519 /* libPods-MarsMusicUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MarsMusicUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		783112449D789CDE08BC894B /* libPods-MarsMusicTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MarsMusicTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEF4A24D36DFC7485D50AFE1 /* Pods-MarsMusic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarsMusic.debug.xcconfig"; path = "Target Support Files/Pods-MarsMusic/Pods-MarsMusic.debug.xcconfig"; sourceTree = "<group>"; };
+		FEAD6AADF7DF7BC96908A689 /* Pods-MarsMusic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarsMusic.release.xcconfig"; path = "Target Support Files/Pods-MarsMusic/Pods-MarsMusic.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		57C55BF0238688DC002CF3B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94173D3E887353649BBE3EF1 /* libPods-MarsMusic.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57C55C09238688DF002CF3B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CED40A7D88183496E165A9B3 /* libPods-MarsMusicTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57C55C14238688DF002CF3B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				876CAA38DAADF5DA6BCB0DF7 /* libPods-MarsMusicUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		57C55BEA238688DC002CF3B9 = {
+			isa = PBXGroup;
+			children = (
+				57C55BF5238688DC002CF3B9 /* MarsMusic */,
+				57C55C0F238688DF002CF3B9 /* MarsMusicTests */,
+				57C55C1A238688DF002CF3B9 /* MarsMusicUITests */,
+				57C55BF4238688DC002CF3B9 /* Products */,
+				6532DBC885BA78B0985FE435 /* Pods */,
+				810B0DC9E64B870BB253F89A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		57C55BF4238688DC002CF3B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57C55BF3238688DC002CF3B9 /* MarsMusic.app */,
+				57C55C0C238688DF002CF3B9 /* MarsMusicTests.xctest */,
+				57C55C17238688DF002CF3B9 /* MarsMusicUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57C55BF5238688DC002CF3B9 /* MarsMusic */ = {
+			isa = PBXGroup;
+			children = (
+				57C55BF6238688DC002CF3B9 /* AppDelegate.swift */,
+				57C55BF8238688DC002CF3B9 /* SceneDelegate.swift */,
+				57C55BFA238688DC002CF3B9 /* ViewController.swift */,
+				57C55BFC238688DC002CF3B9 /* Main.storyboard */,
+				57C55C02238688DF002CF3B9 /* Assets.xcassets */,
+				57C55C04238688DF002CF3B9 /* LaunchScreen.storyboard */,
+				57C55C07238688DF002CF3B9 /* Info.plist */,
+				57C55BFF238688DC002CF3B9 /* MarsMusic.xcdatamodeld */,
+			);
+			path = MarsMusic;
+			sourceTree = "<group>";
+		};
+		57C55C0F238688DF002CF3B9 /* MarsMusicTests */ = {
+			isa = PBXGroup;
+			children = (
+				57C55C10238688DF002CF3B9 /* MarsMusicTests.swift */,
+				57C55C12238688DF002CF3B9 /* Info.plist */,
+			);
+			path = MarsMusicTests;
+			sourceTree = "<group>";
+		};
+		57C55C1A238688DF002CF3B9 /* MarsMusicUITests */ = {
+			isa = PBXGroup;
+			children = (
+				57C55C1B238688DF002CF3B9 /* MarsMusicUITests.swift */,
+				57C55C1D238688DF002CF3B9 /* Info.plist */,
+			);
+			path = MarsMusicUITests;
+			sourceTree = "<group>";
+		};
+		6532DBC885BA78B0985FE435 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CEF4A24D36DFC7485D50AFE1 /* Pods-MarsMusic.debug.xcconfig */,
+				FEAD6AADF7DF7BC96908A689 /* Pods-MarsMusic.release.xcconfig */,
+				3986369B6FC8CA30607D729A /* Pods-MarsMusicTests.debug.xcconfig */,
+				00B501D2AC48D43DF3E9D59B /* Pods-MarsMusicTests.release.xcconfig */,
+				4E7212500FD0305BB4ECE96D /* Pods-MarsMusicUITests.debug.xcconfig */,
+				6CC9D2431A586193C6A7E081 /* Pods-MarsMusicUITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		810B0DC9E64B870BB253F89A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				167013FDFD0C2F914A57D060 /* libPods-MarsMusic.a */,
+				783112449D789CDE08BC894B /* libPods-MarsMusicTests.a */,
+				7580F45A236B1C4D78FBA519 /* libPods-MarsMusicUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		57C55BF2238688DC002CF3B9 /* MarsMusic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57C55C20238688DF002CF3B9 /* Build configuration list for PBXNativeTarget "MarsMusic" */;
+			buildPhases = (
+				1D63AA0590EC99D075EC1F68 /* [CP] Check Pods Manifest.lock */,
+				57C55BEF238688DC002CF3B9 /* Sources */,
+				57C55BF0238688DC002CF3B9 /* Frameworks */,
+				57C55BF1238688DC002CF3B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MarsMusic;
+			productName = MarsMusic;
+			productReference = 57C55BF3238688DC002CF3B9 /* MarsMusic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		57C55C0B238688DF002CF3B9 /* MarsMusicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57C55C23238688DF002CF3B9 /* Build configuration list for PBXNativeTarget "MarsMusicTests" */;
+			buildPhases = (
+				57193AB7733816ACE0DAD269 /* [CP] Check Pods Manifest.lock */,
+				57C55C08238688DF002CF3B9 /* Sources */,
+				57C55C09238688DF002CF3B9 /* Frameworks */,
+				57C55C0A238688DF002CF3B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57C55C0E238688DF002CF3B9 /* PBXTargetDependency */,
+			);
+			name = MarsMusicTests;
+			productName = MarsMusicTests;
+			productReference = 57C55C0C238688DF002CF3B9 /* MarsMusicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		57C55C16238688DF002CF3B9 /* MarsMusicUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57C55C26238688DF002CF3B9 /* Build configuration list for PBXNativeTarget "MarsMusicUITests" */;
+			buildPhases = (
+				1EF718D5449342B3424D5848 /* [CP] Check Pods Manifest.lock */,
+				57C55C13238688DF002CF3B9 /* Sources */,
+				57C55C14238688DF002CF3B9 /* Frameworks */,
+				57C55C15238688DF002CF3B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57C55C19238688DF002CF3B9 /* PBXTargetDependency */,
+			);
+			name = MarsMusicUITests;
+			productName = MarsMusicUITests;
+			productReference = 57C55C17238688DF002CF3B9 /* MarsMusicUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		57C55BEB238688DC002CF3B9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = Mars;
+				TargetAttributes = {
+					57C55BF2238688DC002CF3B9 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					57C55C0B238688DF002CF3B9 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 57C55BF2238688DC002CF3B9;
+					};
+					57C55C16238688DF002CF3B9 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 57C55BF2238688DC002CF3B9;
+					};
+				};
+			};
+			buildConfigurationList = 57C55BEE238688DC002CF3B9 /* Build configuration list for PBXProject "MarsMusic" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 57C55BEA238688DC002CF3B9;
+			productRefGroup = 57C55BF4238688DC002CF3B9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57C55BF2238688DC002CF3B9 /* MarsMusic */,
+				57C55C0B238688DF002CF3B9 /* MarsMusicTests */,
+				57C55C16238688DF002CF3B9 /* MarsMusicUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57C55BF1238688DC002CF3B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57C55C06238688DF002CF3B9 /* LaunchScreen.storyboard in Resources */,
+				57C55C03238688DF002CF3B9 /* Assets.xcassets in Resources */,
+				57C55BFE238688DC002CF3B9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57C55C0A238688DF002CF3B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57C55C15238688DF002CF3B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1D63AA0590EC99D075EC1F68 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MarsMusic-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1EF718D5449342B3424D5848 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MarsMusicUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		57193AB7733816ACE0DAD269 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MarsMusicTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57C55BEF238688DC002CF3B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57C55BFB238688DC002CF3B9 /* ViewController.swift in Sources */,
+				57C55BF7238688DC002CF3B9 /* AppDelegate.swift in Sources */,
+				57C55C01238688DC002CF3B9 /* MarsMusic.xcdatamodeld in Sources */,
+				57C55BF9238688DC002CF3B9 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57C55C08238688DF002CF3B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57C55C11238688DF002CF3B9 /* MarsMusicTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57C55C13238688DF002CF3B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57C55C1C238688DF002CF3B9 /* MarsMusicUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		57C55C0E238688DF002CF3B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57C55BF2238688DC002CF3B9 /* MarsMusic */;
+			targetProxy = 57C55C0D238688DF002CF3B9 /* PBXContainerItemProxy */;
+		};
+		57C55C19238688DF002CF3B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57C55BF2238688DC002CF3B9 /* MarsMusic */;
+			targetProxy = 57C55C18238688DF002CF3B9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		57C55BFC238688DC002CF3B9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57C55BFD238688DC002CF3B9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		57C55C04238688DF002CF3B9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57C55C05238688DF002CF3B9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		57C55C1E238688DF002CF3B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		57C55C1F238688DF002CF3B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		57C55C21238688DF002CF3B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEF4A24D36DFC7485D50AFE1 /* Pods-MarsMusic.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8G7AXK44ZD;
+				INFOPLIST_FILE = MarsMusic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.marsmusic.app.MarsMusic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		57C55C22238688DF002CF3B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEAD6AADF7DF7BC96908A689 /* Pods-MarsMusic.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8G7AXK44ZD;
+				INFOPLIST_FILE = MarsMusic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.marsmusic.app.MarsMusic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		57C55C24238688DF002CF3B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3986369B6FC8CA30607D729A /* Pods-MarsMusicTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8G7AXK44ZD;
+				INFOPLIST_FILE = MarsMusicTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.marsmusic.app.MarsMusicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MarsMusic.app/MarsMusic";
+			};
+			name = Debug;
+		};
+		57C55C25238688DF002CF3B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00B501D2AC48D43DF3E9D59B /* Pods-MarsMusicTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8G7AXK44ZD;
+				INFOPLIST_FILE = MarsMusicTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.marsmusic.app.MarsMusicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MarsMusic.app/MarsMusic";
+			};
+			name = Release;
+		};
+		57C55C27238688DF002CF3B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E7212500FD0305BB4ECE96D /* Pods-MarsMusicUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8G7AXK44ZD;
+				INFOPLIST_FILE = MarsMusicUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.marsmusic.app.MarsMusicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MarsMusic;
+			};
+			name = Debug;
+		};
+		57C55C28238688DF002CF3B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CC9D2431A586193C6A7E081 /* Pods-MarsMusicUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8G7AXK44ZD;
+				INFOPLIST_FILE = MarsMusicUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.marsmusic.app.MarsMusicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MarsMusic;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		57C55BEE238688DC002CF3B9 /* Build configuration list for PBXProject "MarsMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57C55C1E238688DF002CF3B9 /* Debug */,
+				57C55C1F238688DF002CF3B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57C55C20238688DF002CF3B9 /* Build configuration list for PBXNativeTarget "MarsMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57C55C21238688DF002CF3B9 /* Debug */,
+				57C55C22238688DF002CF3B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57C55C23238688DF002CF3B9 /* Build configuration list for PBXNativeTarget "MarsMusicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57C55C24238688DF002CF3B9 /* Debug */,
+				57C55C25238688DF002CF3B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57C55C26238688DF002CF3B9 /* Build configuration list for PBXNativeTarget "MarsMusicUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57C55C27238688DF002CF3B9 /* Debug */,
+				57C55C28238688DF002CF3B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		57C55BFF238688DC002CF3B9 /* MarsMusic.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				57C55C00238688DC002CF3B9 /* MarsMusic.xcdatamodel */,
+			);
+			currentVersion = 57C55C00238688DC002CF3B9 /* MarsMusic.xcdatamodel */;
+			path = MarsMusic.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 57C55BEB238688DC002CF3B9 /* Project object */;
+}
