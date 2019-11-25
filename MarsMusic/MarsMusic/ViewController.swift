@@ -31,6 +31,19 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
         return cell!
       }
     
-
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        
+    
+        
+    }
+    
+    @IBAction func onSearchClick(_ sender: UIButton) {
+        
+        self.navigationController?.pushViewController(MSTestViewController(), animated: true)
+        
+//            self.present(MSTestViewController(), animated: true, completion: nil)
+    }
+    
 }
 
